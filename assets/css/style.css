@@ -15,6 +15,19 @@ a, a:hover {
   text-decoration: none;
 }
 
+#mxo_btn {
+  padding: 12px 28px;
+  background: #7063CF;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+#mxo_btn:hover {
+  color: #A4AAB5;
+}
+
 .logo p {
   font-weight: 500;
   padding: 10px 8px;
@@ -40,6 +53,32 @@ a, a:hover {
   color: #ffffff;
   padding: 5px 25px;
   border-radius: 20px;
+}
+
+.slider-content a {
+  margin-right: 10%;
+}
+
+.slider-content h2 {
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+.slider-content p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #A4AAB5;
+  width: 95%;
+}
+
+.slider-bg {
+  margin-top: 65px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slider-bg img {
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
