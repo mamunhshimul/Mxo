@@ -1,0 +1,38 @@
+ #header-area{
+  
+ }
+ 
+ .logo p{
+ 	font-weight: 500;
+ 	padding: 10px 8px;
+ 	background: $pray_color;
+ 	border-radius: 50%;
+ }
+ #navigation{
+ 	
+
+ 	li{
+ 		display: inline-block;
+
+ 		a{
+ 			color: #A4AAB5;
+ 			display: block;
+ 			font-weight: 500;
+ 			margin-left: 15px;
+ 			font-size: 15px;
+
+ 			 &:hover{
+ 				color: $pray_color;
+ 			 }
+ 			}
+        #signIn{
+        	background: $pray_color;
+        	color: #ffffff;
+        	padding: 5px 25px;
+        	 
+        	border-radius: 20px;
+        }
+
+ 			 
+ 	}
+ }

@@ -1,0 +1,39 @@
+$pray_color : #7063CF;
+$white_color: #fff;
+$font_color :#A4AAB5;
+
+/*===========================================
+                    reset-code
+ ======================================*/     
+
+*{
+	margin: 0;
+	padding: 0;
+}               
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;	
+}
+a,a:hover{
+	text-decoration: none;
+}
+#mxo_btn{
+ padding:12px 28px;
+ background: $pray_color;
+ color: $white_color;
+ font-size: 14px;
+ font-weight: 500;	
+ border-radius: 50px;
+}
+#mxo_btn:hover{
+	color: $font_color;
+}
+
+
+
+@import "header.scss";
+@import  "slider.scss";
+ 
+
+
+
