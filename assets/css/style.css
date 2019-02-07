@@ -1,13 +1,45 @@
-/*===========reset_code==========*/
-*{
-	margin: 0;
-	padding: 0;
+/*===========================================
+                    reset-code
+ ======================================*/
+* {
+  margin: 0;
+  padding: 0;
 }
-h1,h2,h3,h4,h4,h6{
-	margin: 0px;
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
 }
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
-/*===========reset_code==========*/
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.logo p {
+  font-weight: 500;
+  padding: 10px 8px;
+  background: #7063CF;
+  border-radius: 50%;
+}
+
+#navigation li {
+  display: inline-block;
+}
+#navigation li a {
+  color: #A4AAB5;
+  display: block;
+  font-weight: 500;
+  margin-left: 15px;
+  font-size: 15px;
+}
+#navigation li a:hover {
+  color: #7063CF;
+}
+#navigation li #signIn {
+  background: #7063CF;
+  color: #ffffff;
+  padding: 5px 25px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
