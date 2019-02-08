@@ -124,4 +124,35 @@ a, a:hover {
   overflow: hidden;
 }
 
+/*=========================================================
+                  about-middel css
+=========================================================*/
+#about-middel-area {
+  border-bottom: 1px solid black;
+}
+
+.about-middel-bg {
+  margin: 15% 0;
+}
+
+.about-middel-bg img {
+  width: 80%;
+}
+
+.about-middel-content {
+  transform: translateY(60%);
+}
+
+.about-middel-content h3 {
+  color: #7063CF;
+  margin: 10% 0 20px 0;
+  width: 70%;
+}
+
+.about-middel-content p {
+  margin-bottom: 10%;
+  color: #A4AAB5;
+  width: 85%;
+}
+
 /*# sourceMappingURL=style.css.map */
