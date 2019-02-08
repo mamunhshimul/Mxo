@@ -155,4 +155,37 @@ a, a:hover {
   width: 85%;
 }
 
+/*=========================================================
+                  about-bottom css
+=========================================================*/
+#about-bottom-area {
+  border-bottom: 1px solid black;
+}
+
+.about-bottom-content {
+  transform: translateY(70%);
+}
+
+.about-bottom-bg {
+  margin: 15% 0;
+  height: 500px;
+  overflow: hidden;
+}
+
+.about-bottom-bg img {
+  width: 100%;
+}
+
+.about-bottom-content h3 {
+  color: #7063CF;
+  margin: 10% 0 20px 0;
+  width: 70%;
+}
+
+.about-bottom-content p {
+  margin-bottom: 10%;
+  color: #A4AAB5;
+  width: 85%;
+}
+
 /*# sourceMappingURL=style.css.map */
