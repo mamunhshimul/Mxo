@@ -1,5 +1,5 @@
   #slider-area{
-
+   border-bottom: 1px solid black;
  }
  .slider-contenTs{
  	 
@@ -7,10 +7,7 @@
  .slider-contents{
  	 
  }
- 
  .slider-content a{
-  
-  
  	margin-right: 10%;
  }
 
@@ -33,7 +30,8 @@
  }
  .slider-bg{
    margin-top:65px;
- 	height: 600px;
+   margin-bottom: 20px;
+ 	height: 500px;
  	overflow: hidden;
  }
  .slider-bg img{
