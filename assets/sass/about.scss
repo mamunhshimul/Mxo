@@ -13,7 +13,6 @@
 .single-top-about{
 	margin-top:50%;
 	  margin-bottom: 50%;
-	 
 }
 .single-top-about i{
 	font-size: 3em;
@@ -31,4 +30,59 @@
    
      color: $font_color;
      overflow: hidden;
+}
+/*=========================================================
+                  about-middel css
+=========================================================*/             
+#about-middel-area{
+	border-bottom: 1px solid black;
+}
+.about-middel-bg{
+	margin: 15% 0;
+}
+.about-middel-bg img{
+	width: 80%;
+}
+.about-middel-content{
+	transform: translateY(60%);
+}
+.about-middel-content h3{
+   color: $pray_color;
+   margin:10% 0 20px 0;
+   width: 70%;
+}
+.about-middel-content p{
+	margin-bottom: 10%;
+	color: $font-color;
+	width: 85%;
+}
+.about-middel-btn{}
+/*=========================================================
+                  about-bottom css
+=========================================================*/ 
+#about-bottom-area{
+	border-bottom: 1px solid black;
+}
+.about-bottom-area{}
+.about-bottom-content{
+	transform: translateY(70%);
+}
+.about-bottom-bg{
+    margin:15% 0;
+	height: 500px;
+	overflow: hidden;
+}
+.about-bottom-bg img{
+	width: 100%;
+ 
+}
+.about-bottom-content h3{
+   color: $pray_color;
+   margin:10% 0 20px 0;
+   width: 70%;
+}
+.about-bottom-content p{
+	margin-bottom: 10%;
+	color: $font-color;
+	width: 85%;
 }

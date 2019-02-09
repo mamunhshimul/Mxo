@@ -1,0 +1,57 @@
+/*============================================
+             plan
+=======================================================*/             
+ #plan-area{}
+ .plan-content{
+ 	margin:42% 0;
+ }
+ .plan-content h3{
+ 	width: 70%;
+ }
+ .plan-content p{
+		color :$font_color;
+		margin:5% 10% 8% 0; 
+ }
+ .price-card{
+ 	display:flex;
+ }
+ .single-price-card{
+ 	display: inline-block;
+ 	margin:19% 0;
+ 	box-shadow:0px 5px 6px #00000061;;
+ }
+ .single-price-card:nth-of-type(1){
+ 	height: 416px;
+ 	width:54%;
+ }
+ .single-price-card:nth-of-type(2){
+ 	height: 400px;
+ 	width:44%;
+ }
+ .card-head{
+ 	display: flex;
+ 	margin :20% 0 0 12%;
+ }
+  .card-head i{
+  	font-size: 4em;
+  	color: $pray_color;
+  }
+ .card-head h3{
+ 	font-size: 20px;
+ }
+ .card-head h4{
+ 	margin-bottom:10%;
+ }
+ .single-price-card p{
+   margin :2% 0 1% 12%;
+   color: $font_color;	
+   font-size: 15px;
+ }
+ .single-price-card p:last-of-type{
+ 	padding-bottom: 10%;
+
+ }
+ .plan_btn{
+   margin :0 0 0 10%;	
+
+ }
