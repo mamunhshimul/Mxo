@@ -22,12 +22,10 @@ a, a:hover {
   font-size: 14px;
   font-weight: 500;
   border-radius: 50px;
-  transition-property: 0.5s;
 }
 
 #mxo_btn:hover {
   color: #A4AAB5;
-  box-shadow: 1px 1px 15px #7063CF;
 }
 
 @media only screen and (max-width: 767px) {
@@ -60,20 +58,15 @@ a, a:hover {
 #navigation li a:hover {
   color: #7063CF;
 }
-#navigation li .signIn {
-  padding: 8px 25px;
+#navigation li #signIn {
+  background: #7063CF;
+  color: #ffffff;
+  padding: 5px 25px;
   border-radius: 20px;
 }
-#navigation li .signIn:hover {
-  color: #7063CF;
-  color: #ffffff;
-}
 @media only screen and (max-width: 991px) {
-  #navigation li .signIn {
+  #navigation li #signIn {
     display: inline-block;
-  }
-  #navigation li .signIn:hover {
-    color: #ffffff;
   }
 }
 
@@ -82,7 +75,7 @@ a, a:hover {
 }
 
 .slider-content h2 {
-  margin-top: 108px;
+  margin-top: 91px;
   font-size: 50px;
 }
 
@@ -104,48 +97,18 @@ a, a:hover {
   width: 70%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .mxo_btnM {
-    padding: 10px 5px;
-  }
-
-  .slider-bg {
-    margin-top: 99px;
-  }
-
-  .slider-bg img {
-    width: 87%;
-  }
-
-  .slider-content h2 {
-    margin-top: 85px;
-    font-size: 45px;
-  }
-
-  .slider-content p {
-    margin-top: 20px;
-  }
-
-  .slider-content a {
-    margin-right: -4%;
-  }
+#mxo_btnM {
+  padding: 12px 28px;
+  background: #7063CF;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 50px;
 }
-@media only screen and (max-width: 767px) {
-  #slider-area {
-    text-align: center;
-  }
 
-  .slider-content h2 {
-    margin-top: 29px;
-    font-size: 38px;
-  }
-
-  .slider-bg {
-    height: 360px;
-  }
-
-  .slider-bg img {
-    width: 84%;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #mxo_btnM {
+    padding: 12px 10px;
   }
 }
 .about-top-hadding {
@@ -159,8 +122,8 @@ a, a:hover {
 }
 
 .single-top-about {
-  margin-top: 44%;
-  margin-bottom: 25%;
+  margin-top: 50%;
+  margin-bottom: 50%;
 }
 
 .single-top-about i {
@@ -184,25 +147,6 @@ a, a:hover {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-top-hadding {
-    padding-top: 5%;
-  }
-
-  .single-top-about h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .single-top-about {
-    margin-top: -5%;
-  }
-
-  .about-top-hadding h3 {
-    margin-bottom: 25%;
-  }
-}
 /*=========================================================
                   about-middel css
 =========================================================*/
@@ -215,7 +159,7 @@ a, a:hover {
 }
 
 .about-middel-content {
-  transform: translateY(67%);
+  transform: translateY(60%);
 }
 
 .about-middel-content h3 {
@@ -225,56 +169,20 @@ a, a:hover {
 }
 
 .about-middel-content p {
-  margin-bottom: 7.5%;
+  margin-bottom: 10%;
   color: #A4AAB5;
   width: 85%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-middel-content {
-    transform: translateY(5%);
-  }
-
-  .about-middel-content h3 {
-    color: #7063CF;
-    margin: 11% 0 10px 0;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .about-middel-bg img {
-    width: 100%;
-    text-align: center;
-  }
-
-  .about-middel-bg {
-    margin: 6% 0;
-  }
-
-  .about-middel-content {
-    text-align: center;
-    transform: translateY(-9%);
-  }
-
-  .about-middel-content h3 {
-    margin: 10% 0 20px 0;
-    width: 100%;
-  }
-
-  .about-middel-content p {
-    margin-bottom: 7.5%;
-    width: 100%;
-  }
-}
 /*=========================================================
                   about-bottom css
 =========================================================*/
 .about-bottom-content {
-  transform: translateY(50%);
+  transform: translateY(70%);
 }
 
 .about-bottom-bg {
-  margin: 6% 0;
+  margin: 15% 0;
   height: 500px;
   overflow: hidden;
 }
@@ -290,57 +198,17 @@ a, a:hover {
 }
 
 .about-bottom-content p {
-  margin-bottom: 8%;
+  margin-bottom: 10%;
   color: #A4AAB5;
   width: 85%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about-bottom-content {
-    transform: translateY(7%);
-  }
-
-  .about-bottom-content h3 {
-    margin: 9% 0px 13px 0;
-    width: 100%;
-  }
-
-  .about-bottom-bg {
-    margin: 14% 0 0 0;
-    height: 367px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .about-bottom-content {
-    transform: translateY(9%);
-    text-align: center;
-  }
-
-  .about-bottom-content h3 {
-    margin: 10% 0 20px 0;
-    width: 100%;
-  }
-
-  .about-bottom-content p {
-    width: 100%;
-  }
-
-  .about-bottom-bg {
-    margin: 19% 0;
-    height: 282px;
-    overflow: hidden;
-  }
-}
 /*=========================================================
                   featurse css
 =========================================================*/
-#features-area {
-  margin-top: 2%;
-}
-
 #features-area p {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 500;
   color: #A4AAB5;
 }
@@ -356,13 +224,13 @@ a, a:hover {
 }
 
 .features-bg img {
-  width: 100%;
+  width: 90%;
   text-align: center;
-  margin: 31% 0;
+  margin: 20% 0;
 }
 
 .features-boxes {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .features-single-box {
@@ -387,30 +255,6 @@ a, a:hover {
   font-size: 15px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .features-bg img {
-    margin: 71% 0;
-  }
-
-  .plan-content {
-    margin: 55% 0;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #features-area p {
-    font-size: 12px;
-  }
-
-  .features-bg {
-    height: 377px;
-    overflow: hidden;
-    margin: 5%;
-  }
-}
-#sreenshort {
-  margin-top: 10%;
-}
-
 #sreenshort p {
   color: #A4AAB5;
   text-align: center;
@@ -433,11 +277,6 @@ a, a:hover {
   display: inline-block;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  #sreenshort {
-    margin-top: 7%;
-  }
-}
 /*============================================
              plan
 =======================================================*/
@@ -451,7 +290,7 @@ a, a:hover {
 
 .plan-content p {
   color: #A4AAB5;
-  margin: 5% 10% 7% 0;
+  margin: 5% 10% 8% 0;
 }
 
 .price-card {
@@ -460,7 +299,7 @@ a, a:hover {
 
 .single-price-card {
   display: inline-block;
-  margin: 15% 0;
+  margin: 19% 0;
   box-shadow: 0px 5px 6px #00000061;
 }
 
@@ -485,8 +324,7 @@ a, a:hover {
 }
 
 .card-head h3 {
-  font-size: 17px;
-  color: #7063CF;
+  font-size: 20px;
 }
 
 .card-head h4 {
@@ -507,78 +345,6 @@ a, a:hover {
   margin: 0 0 0 10%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .plan-content {
-    text-align: center;
-  }
-
-  .plan-content h3 {
-    width: 100%;
-    font-size: 24px;
-  }
-
-  .single-price-card p {
-    margin: 2% 0 1% 7%;
-  }
-
-  .single-price-card:nth-of-type(1) {
-    height: 378px;
-    width: 50%;
-  }
-
-  .single-price-card:nth-of-type(2) {
-    height: 350px;
-    width: 50%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .plan-content {
-    text-align: center;
-  }
-
-  .plan-content h3 {
-    width: 100%;
-  }
-
-  .plan-content p {
-    color: #A4AAB5;
-    margin: 5% 0 7% 0;
-  }
-
-  .plan-content {
-    margin: 17% 0;
-  }
-
-  .card-head i {
-    font-size: 2em;
-    color: #7063CF;
-  }
-
-  .card-head h3 {
-    font-size: 16px;
-  }
-
-  .card-head span {
-    font-size: 15px;
-  }
-
-  .single-price-card p {
-    text-align: center;
-    margin: 2% 0 1% 0;
-    color: #A4AAB5;
-    font-size: 10px;
-  }
-
-  .single-price-card:nth-of-type(1) {
-    height: 288px;
-    width: 54%;
-  }
-
-  .single-price-card:nth-of-type(2) {
-    height: 280px;
-    width: 54%;
-  }
-}
 /*===========================================
                  user css
 ===========================================*/
@@ -597,10 +363,11 @@ a, a:hover {
 }
 
 .uSer {
-  margin: 7% 0;
+  margin: 10% 0;
 }
 
 .user-bg img {
+  height: 150px;
   border-radius: 50%;
   border: 1px solid black;
 }
@@ -608,6 +375,7 @@ a, a:hover {
 .user-bg {
   width: 75%;
   margin: 1% 0 5% 0;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -622,11 +390,11 @@ a, a:hover {
 }
 
 .user-bottom-content h6:nth-of-type(1) {
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .user-bottom-content h6:nth-of-type(2) {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
 }
 
 .user-bottom-content h4 {
@@ -673,46 +441,9 @@ a, a:hover {
   font-weight: bold;
 }
 
-.links {
-  display: flex;
-  width: 100%;
-}
-
-.link {
-  width: 25%;
-}
-
 .copy {
   color: #A4AAB5;
   margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 767px) {
-  #contract-area {
-    height: 150px;
-  }
-
-  #contract-area input[type=search] {
-    width: 52%;
-    height: 50px;
-    border: none;
-    margin-top: 15.4%;
-    transform: translateX(50%);
-  }
-
-  #contract-area input::placeholder {
-    font-size: 10px;
-  }
-
-  #links-area p {
-    margin-bottom: 0%;
-    color: #A4AAB5;
-    font-size: 10px;
-  }
-
-  #links-area p:nth-of-type(1) {
-    font-size: 16px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */

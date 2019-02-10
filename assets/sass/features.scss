@@ -2,11 +2,11 @@
                   featurse css
 =========================================================*/
 #features-area{
-	border-bottom: 1px solid black;
+ margin-top:2%;
 }
 #features-area p{
 	text-align: center;
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: 500;
 	color: $font_color;
 }
@@ -20,12 +20,12 @@
 
 }
 .features-bg img{
-	width: 90%;
+	width: 100%;
 	text-align: center;
-	margin: 20% 0;
+	margin: 31% 0;
 }
 .features-boxes{
-	margin-top:15%;
+	margin-top:20%;
 }
  
 .features-single-box{
@@ -45,4 +45,25 @@
 }
 .features-single-box p{
 	font-size: 15px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.features-bg img {
+    margin: 71% 0;
+}
+.plan-content {
+    margin: 55% 0;
+}
+
+}
+@media only screen and (max-width: 767px) {
+
+
+#features-area p {
+	font-size: 12px;
+}
+.features-bg {
+    height: 377px;
+    overflow: hidden;
+    margin: 5%;
+}
 }

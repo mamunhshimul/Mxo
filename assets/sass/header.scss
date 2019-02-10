@@ -8,6 +8,9 @@
  	background: $pray_color;
  	border-radius: 50%;
  }
+ .navbar-toggler{
+ 	background: $pray_color;
+ }
  #navigation{
  	
 
@@ -23,16 +26,27 @@
 
  			 &:hover{
  				color: $pray_color;
+                                
  			 }
  			}
-        #signIn{
-        	background: $pray_color;
-        	color: #ffffff;
-        	padding: 5px 25px;
+        .signIn{
+        	 
+        	padding: 8px 25px;
         	 
         	border-radius: 20px;
+                &:hover{
+                                color: $pray_color;
+                                color:#ffffff;
+                         }
         }
-
+@media only screen and (max-width: 991px) {
+	.signIn{
+		display: inline-block;
+                &:hover{
+                color:#ffffff;
+                }
+	}
+}
  			 
  	}
  }

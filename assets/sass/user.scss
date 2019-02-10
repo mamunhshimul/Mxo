@@ -1,0 +1,46 @@
+/*===========================================
+                 user css
+===========================================*/                 
+#users-area{
+	text-align: center;
+}
+#users-area p:nth-of-type(1){
+	font-weight: bold;
+	color: $font_color;
+	padding-top: 5%;
+}
+#users-area h3{
+	margin-bottom: 5%; 
+}
+.uSer{
+	margin:7% 0;
+}
+.user-bg img{
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.user-bg{
+	width: 75%;
+	margin:1% 0 5% 0;
+	overflow: hidden;
+}
+.user-bottom-content h3{
+  margin-top: 2%;
+  font-size: 16px;
+  color: $font_color;
+}
+.user-bottom-content h6{
+	color: $font_color;
+}
+.user-bottom-content h6:nth-of-type(1){
+  margin-top: 1%;
+}
+.user-bottom-content h6:nth-of-type(2){
+	padding-bottom: 1%;
+}
+.user-bottom-content h4{
+	font-size: 20px;
+}
+.user-bottom-content h5{
+	font-size: 16px;
+}

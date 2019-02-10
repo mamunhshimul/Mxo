@@ -1,5 +1,5 @@
 #sreenshort{
-	border-bottom: 1px solid black;
+ margin-top:10%; 
 }
 #sreenshort p{
 	color: $font_color;
@@ -19,4 +19,10 @@
 .single-bg{
 	width: 20%;
 	display: inline-block;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+#sreenshort {
+    margin-top: 7%;
+}
+
 }
